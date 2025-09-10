@@ -1,5 +1,5 @@
 output*
 data*
-model*
+model/
 test*
 __pycache__
