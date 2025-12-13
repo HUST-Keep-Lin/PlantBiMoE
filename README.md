@@ -36,7 +36,7 @@ accelerate launch pretrain.py \
     --bf16
 ```
 ## Finetune
-Launch fine-tune using PlantBiMoE, you should download PlantBiMoE from huggingface. (Note: We will upload PlantBiMoE at the end of the review to avoid disclosing personal information)
+Launch fine-tune using PlantBiMoE, you should download PlantBiMoE from [huggingface](https://huggingface.co/plant-llms/PlantBiMoE).
 ```bash
 accelerate launch finetune.py \
     --model_name_or_path "path/to/model" \
